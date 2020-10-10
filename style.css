@@ -1,0 +1,155 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: black;
+}
+.loading1{
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 0px;
+  display: flex;
+  align-items: flex-end;
+}
+.obj{
+  width: 4px;
+  height: 0px;
+  background: repeating-linear-gradient(black, green, black, green, black) ;
+  margin: 0px 10px;
+  border-radius: 100px;
+  animation: loading1 1.4s infinite;
+}
+.obj:nth-child(2){
+  animation-delay: 0.1s;
+}
+.obj:nth-child(3){
+  animation-delay: 0.2s;
+}
+.obj:nth-child(4){
+  animation-delay: 0.3s;
+}
+.obj:nth-child(5){
+  animation-delay: 0.4s;
+}
+.obj:nth-child(6){
+  animation-delay: 0.5s;
+}
+.obj:nth-child(7){
+  animation-delay: 0.6s;
+}
+.obj:nth-child(8){
+  animation-delay: 0.7s;
+}
+.obj:nth-child(9){
+  animation-delay: 0.8s;
+}
+.obj:nth-child(10){
+  animation-delay: 0.9s;
+}
+.obj:nth-child(11){
+  animation-delay: 1s;
+}
+.obj:nth-child(12){
+  animation-delay: 1.1s;
+}
+.obj:nth-child(13){
+  animation-delay: 1.2s;
+}
+.obj:nth-child(14){
+  animation-delay: 1.3s;
+}
+.obj:nth-child(15){
+  animation-delay: 1.4s;
+}
+.text{
+  font-family: cursive;
+  font-style: italic;
+  font-size: 40px;
+  color: green;
+  position: fixed;
+  top: 30%;
+  left: 46%;
+  align-items: center;
+}
+.loading2{
+  position: fixed;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  height: 0px;
+  display: flex;
+  align-items: flex-start;
+}
+.ob{
+  width: 4px;
+  height: 0px;
+  background: repeating-linear-gradient(black, green, black, green, black) ;
+  margin: 0px 10px;
+  border-radius: 100px;
+  animation: loading2 1.4s infinite;
+}
+.ob:nth-child(2){
+  animation-delay: 0.1s;
+}
+.ob:nth-child(3){
+  animation-delay: 0.2s;
+}
+.ob:nth-child(4){
+  animation-delay: 0.3s;
+}
+.ob:nth-child(5){
+  animation-delay: 0.4s;
+}
+.ob:nth-child(6){
+  animation-delay: 0.5s;
+}
+.ob:nth-child(7){
+  animation-delay: 0.6s;
+}
+.ob:nth-child(8){
+  animation-delay: 0.7s;
+}
+.ob:nth-child(9){
+  animation-delay: 0.8s;
+}
+.ob:nth-child(10){
+  animation-delay: 0.9s;
+}
+.ob:nth-child(11){
+  animation-delay: 1s;
+}
+.ob:nth-child(12){
+  animation-delay: 1.1s;
+}
+.ob:nth-child(13){
+  animation-delay: 1.2s;
+}
+.ob:nth-child(14){
+  animation-delay: 1.3s;
+}
+.ob:nth-child(15){
+  animation-delay: 1.4s;
+}
+@keyframes loading1 {
+  0%{
+    height: 0px;
+  }
+  50%{
+    height: 100px;
+  }
+  100%{
+    height: 0px;
+  }
+}
+@keyframes loading2 {
+  0%{
+    height: 100px;
+  }
+  50%{
+    height: 0px;
+  }
+  100%{
+    height: 100px;
+  }
+}
